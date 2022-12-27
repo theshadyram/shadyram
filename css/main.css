@@ -1,0 +1,220 @@
+body {
+	font-family: Noto Sans, Arial, Helvetica, serif;
+	font-size: 150%;
+	background: #c1bcbc url("../img/rice_paper_v3.png") repeat round;
+}
+
+html {
+	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+
+}
+
+.wrap {
+		max-width: 925px;
+		margin: 50px auto;
+		padding: 30px 40px;
+		text-align: center;
+		box-shadow: 0 4px 25px -4px #656565;
+		background: #F1F1F1;
+}
+
+article {
+		text-align: left;
+		padding: 0px 40px 40px 40px;
+		line-height: 150%;
+}
+
+.bolder {
+	font-weight: bolder;
+}
+
+/* ===========================
+   ===== Main Navigation =====
+   =========================== */
+.mainHeader nav {
+	background: #555; /*#282A34;*/
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0px auto 30px auto;
+	text-align: center;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+}
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0px 0px auto auto;
+}
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+  /*border: 1px solid #FFF;	*/
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	/*background: #CF5C3F;*/
+	/*color: #fff;*/
+	background: #000; /*#800;*/
+	color: #FFF; /*#EBEB00*/
+	text-shadow: none !important;
+}
+.mainHeader nav li a { /* BUTTON */
+/*
+  border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+*/
+  border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	/*border-bottom: 1px solid red;*/
+	/*border-right: 1px solid #FFF;*/
+}
+.mainHeader img {
+	width: 100%;
+	height: auto;
+	margin: 0 0 0 0;
+}
+
+/*
+ ** DEFAULT LINKS
+*/
+ /* unvisited link */
+a:link {
+	color: #036503;
+
+}
+/* visited link */
+a:visited {
+	color: #036503;
+;
+}
+/* mouse over link */
+a:hover {
+	color: #b46e0f;
+
+}
+/* selected link */
+a:active {
+	color: #036503;
+
+}
+
+/*
+ ** MAIN NAVIGATION
+*/
+ /* unvisited link */
+. menu a:link {
+    /*color: #443d96;*/
+	color: #BCD74A;
+}
+/* visited link */
+. menu a:visited {
+    /*color: #443d96;*/
+	color: #BCD74A;
+}
+/* mouse over link */
+.menu a:hover {
+    /*color: #b40f7b;*/
+	color: #FFD136;
+}
+/* selected link */
+.menu a:active {
+    /*color: #443d96;*/
+	color: #BCD74A;
+}
+
+#rcorners3 {
+/*  
+	border-radius: 15px 15px 0px 0px;
+	-moz-border-radius: 15px 15px 0px 0px;
+	-webkit-border-radius: 15px 15px 0px 0px;
+	background: url(../img/shady_ram_header1000px_x_245px.jpg);
+	background-position: center top;
+	background-repeat: repeat;
+	padding: 0px;
+	width: auto;
+	height: 245px;
+*/
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	background: url(../img/shady_ram_header1000px_x_245px.jpg);
+	background-position: center top;
+	background-repeat: repeat;
+	padding: 0px;
+	width: auto;
+	height: 245px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #036503;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container h1 {
+	font-size: 36px;
+	padding-top: 242px;
+	color: #FFF;
+	/*text-shadow: 2px 2px 4px black;*/
+	/*text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;*/
+	text-shadow: 1px 1px 2px #000, 0 0 25px #000, 0 0 5px #000;
+}
+
+#dTableWrap {
+	margin: auto;
+	width: 100%;
+}
+.rTable {
+	display: table;
+
+	margin: auto;
+	width: 100%;
+}
+.rTableRow {
+	display: table-row;
+}
+.rTableHeading {
+	display: table-header-group;
+	background-color: #ddd;
+}
+.rTableCell, .rTableHead {
+	display: table-cell;
+	padding: 3px 10px;
+	border: 1px solid #999999;
+}
+.rTableHead {
+	text-align: center;
+}
+.rTableHeading {
+	display: table-header-group;
+	background-color: #ddd;
+	font-weight: bold;
+}
+.rTableFoot {
+	display: table-footer-group;
+	font-weight: bold;
+	background-color: #ddd;
+}
+.rTableBody {
+	display: table-row-group;
+}
+
