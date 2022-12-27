@@ -71,11 +71,11 @@ article {
 }
 .mainHeader nav li a { /* BUTTON */
 /*
-  border-radius: 5px;
+  	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 */
-  border-radius: 5px;
+  	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	/*border-bottom: 1px solid red;*/
