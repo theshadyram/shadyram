@@ -115,12 +115,12 @@ a:active {
  ** MAIN NAVIGATION
 */
  /* unvisited link */
-. menu a:link {
+.menu a:link {
     /*color: #443d96;*/
 	color: #BCD74A;
 }
 /* visited link */
-. menu a:visited {
+.menu a:visited {
     /*color: #443d96;*/
 	color: #BCD74A;
 }
