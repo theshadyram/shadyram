@@ -54,7 +54,7 @@ article {
 	display: inline;
 }
 .mainHeader nav a:link, .mainHeader nav a:visited {
-	color: #000; /*#FFF;*/
+	color: #4C4C4C;/*#000;*/ /*#FFF;*/
 	display: inline-block;
 	height: 30px;
 	padding: 5px 23px;
