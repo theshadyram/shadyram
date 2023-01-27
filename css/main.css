@@ -35,7 +35,7 @@ article {
    ===== Main Navigation =====
    =========================== */
 .mainHeader nav {
-	background: #999;/*#555;*/ /*#282A34;*/
+	background: #C4C4C4; /*#999;*/ /*#555;*/ /*#282A34;*/
 	font-size: 1.143em;
 	height: 40px;
 	line-height: 30px;
@@ -54,7 +54,7 @@ article {
 	display: inline;
 }
 .mainHeader nav a:link, .mainHeader nav a:visited {
-	color: #4C4C4C;/*#000;*/ /*#FFF;*/
+	color: #000; /*#FFF;*/
 	display: inline-block;
 	height: 30px;
 	padding: 5px 23px;
