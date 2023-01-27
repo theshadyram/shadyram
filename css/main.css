@@ -58,7 +58,7 @@ article {
 	display: inline-block;
 	height: 30px;
 	padding: 5px 23px;
-	text-decoration: bold; /*none;*/
+	text-decoration: none;
   /*border: 1px solid #FFF;	*/
 }
 .mainHeader nav a:hover, .mainHeader nav a:active,
